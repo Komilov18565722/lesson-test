@@ -24,4 +24,5 @@ urlpatterns = [
     path('book-store/', include('book_store.urls')),
     path('', include('home.urls')),
     path('apiv0/', include('apiv0.urls')),
+    path('apiv0/', include('apiv0.urls')),
 ] + static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
